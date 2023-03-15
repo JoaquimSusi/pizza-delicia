@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+header {
+    background-color:rgb(141, 3, 3);
+    text-align: center;
+    color: #ffffff; /*white*/
+    font-family: 'Brush Script MT';
+    font-size: 64px;
+    /* deslocamento x | deslocamento y | Raio desfoque | Cor */
+    text-shadow: 1px 1px 2px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav {
+    text-align: center;
+    padding: 2px 0px 5px 0px;
+    background-color: rgb(226, 149, 5);
+}
+footer {
+    background-color:  rgb(141, 3, 3);
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+}
+footer a {
+    color:white;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+footer a:hover {
+    color:rgb(226, 149, 5);
+    font-weight: bold;
+}
+nav a {
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    color:brown;
+    font-weight: bold;
+}
+#container {
+    padding: 50px 100px 50px 100px;
+}
+.div {
+    text-align: left;
+    display: flex;
+}
+.pizzas {
+    display: flex;
+    padding-left: 10px;
+}
+.texto {
+    display: table-column;
+}
+.pizzas2 img{
+    height: 350px;
+}
